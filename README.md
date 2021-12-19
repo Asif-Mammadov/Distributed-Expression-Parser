@@ -1,6 +1,6 @@
-# RMICalculator
+# Distributed Expression Parser
 
-This is the university project for the Advanced Object Oriented Programming course at UFAZ. The project consist of Calculator client (GUI) and server that communicate with Remote Method Invocation. All the processing is done on the server, the commands will be entered and submited by the client. The calculator can handle complex expressions containing brackets, plus, minus, multiplication and division operations. The expression calculation is implemented usign stacks and so called infix to postfix conversion. The GUI is implemented with Swing library.
+This is the university project for the Advanced Object Oriented Programming course at UFAZ. The project consist of Calculator client (GUI) and the server that communicate with Remote Method Invocation. All the processing is done on the server, the commands will be entered and submited by the client. The calculator can handle complex expressions containing brackets, plus, minus, multiplication and division operations. The expression calculation is implemented usign stacks and so called infix to postfix conversion. The GUI is implemented with Swing library.
 
 RMI implements multithreading, thus many clients can simultaneously connect to the server.
 
